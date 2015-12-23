@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F72F7A741C2AFBD300E3A916 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72F7A731C2AFBD300E3A916 /* AppDelegate.swift */; };
+		F72F7A761C2AFBD300E3A916 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72F7A751C2AFBD300E3A916 /* ViewController.swift */; };
+		F72F7A791C2AFBD300E3A916 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F72F7A771C2AFBD300E3A916 /* Main.storyboard */; };
+		F72F7A7B1C2AFBD300E3A916 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F72F7A7A1C2AFBD300E3A916 /* Assets.xcassets */; };
+		F72F7A7E1C2AFBD300E3A916 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F72F7A7C1C2AFBD300E3A916 /* LaunchScreen.storyboard */; };
+		F72F7A891C2AFBD300E3A916 /* THEATAN_STests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72F7A881C2AFBD300E3A916 /* THEATAN_STests.swift */; };
+		F72F7A941C2AFBD300E3A916 /* THEATAN_SUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72F7A931C2AFBD300E3A916 /* THEATAN_SUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F72F7A851C2AFBD300E3A916 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F72F7A681C2AFBD300E3A916 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F72F7A6F1C2AFBD300E3A916;
+			remoteInfo = THEATAN_S;
+		};
+		F72F7A901C2AFBD300E3A916 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F72F7A681C2AFBD300E3A916 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F72F7A6F1C2AFBD300E3A916;
+			remoteInfo = THEATAN_S;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F72F7A701C2AFBD300E3A916 /* THEATAN_S.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = THEATAN_S.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F72F7A731C2AFBD300E3A916 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F72F7A751C2AFBD300E3A916 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F72F7A781C2AFBD300E3A916 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F72F7A7A1C2AFBD300E3A916 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F72F7A7D1C2AFBD300E3A916 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F72F7A7F1C2AFBD300E3A916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F72F7A841C2AFBD300E3A916 /* THEATAN_STests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = THEATAN_STests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F72F7A881C2AFBD300E3A916 /* THEATAN_STests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THEATAN_STests.swift; sourceTree = "<group>"; };
+		F72F7A8A1C2AFBD300E3A916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F72F7A8F1C2AFBD300E3A916 /* THEATAN_SUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = THEATAN_SUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F72F7A931C2AFBD300E3A916 /* THEATAN_SUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THEATAN_SUITests.swift; sourceTree = "<group>"; };
+		F72F7A951C2AFBD300E3A916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F72F7A6D1C2AFBD300E3A916 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F72F7A811C2AFBD300E3A916 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F72F7A8C1C2AFBD300E3A916 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F72F7A671C2AFBD300E3A916 = {
+			isa = PBXGroup;
+			children = (
+				F72F7A721C2AFBD300E3A916 /* THEATAN_S */,
+				F72F7A871C2AFBD300E3A916 /* THEATAN_STests */,
+				F72F7A921C2AFBD300E3A916 /* THEATAN_SUITests */,
+				F72F7A711C2AFBD300E3A916 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F72F7A711C2AFBD300E3A916 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F72F7A701C2AFBD300E3A916 /* THEATAN_S.app */,
+				F72F7A841C2AFBD300E3A916 /* THEATAN_STests.xctest */,
+				F72F7A8F1C2AFBD300E3A916 /* THEATAN_SUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F72F7A721C2AFBD300E3A916 /* THEATAN_S */ = {
+			isa = PBXGroup;
+			children = (
+				F72F7A731C2AFBD300E3A916 /* AppDelegate.swift */,
+				F72F7A751C2AFBD300E3A916 /* ViewController.swift */,
+				F72F7A771C2AFBD300E3A916 /* Main.storyboard */,
+				F72F7A7A1C2AFBD300E3A916 /* Assets.xcassets */,
+				F72F7A7C1C2AFBD300E3A916 /* LaunchScreen.storyboard */,
+				F72F7A7F1C2AFBD300E3A916 /* Info.plist */,
+			);
+			path = THEATAN_S;
+			sourceTree = "<group>";
+		};
+		F72F7A871C2AFBD300E3A916 /* THEATAN_STests */ = {
+			isa = PBXGroup;
+			children = (
+				F72F7A881C2AFBD300E3A916 /* THEATAN_STests.swift */,
+				F72F7A8A1C2AFBD300E3A916 /* Info.plist */,
+			);
+			path = THEATAN_STests;
+			sourceTree = "<group>";
+		};
+		F72F7A921C2AFBD300E3A916 /* THEATAN_SUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F72F7A931C2AFBD300E3A916 /* THEATAN_SUITests.swift */,
+				F72F7A951C2AFBD300E3A916 /* Info.plist */,
+			);
+			path = THEATAN_SUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F72F7A6F1C2AFBD300E3A916 /* THEATAN_S */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F72F7A981C2AFBD300E3A916 /* Build configuration list for PBXNativeTarget "THEATAN_S" */;
+			buildPhases = (
+				F72F7A6C1C2AFBD300E3A916 /* Sources */,
+				F72F7A6D1C2AFBD300E3A916 /* Frameworks */,
+				F72F7A6E1C2AFBD300E3A916 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = THEATAN_S;
+			productName = THEATAN_S;
+			productReference = F72F7A701C2AFBD300E3A916 /* THEATAN_S.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F72F7A831C2AFBD300E3A916 /* THEATAN_STests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F72F7A9B1C2AFBD300E3A916 /* Build configuration list for PBXNativeTarget "THEATAN_STests" */;
+			buildPhases = (
+				F72F7A801C2AFBD300E3A916 /* Sources */,
+				F72F7A811C2AFBD300E3A916 /* Frameworks */,
+				F72F7A821C2AFBD300E3A916 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F72F7A861C2AFBD300E3A916 /* PBXTargetDependency */,
+			);
+			name = THEATAN_STests;
+			productName = THEATAN_STests;
+			productReference = F72F7A841C2AFBD300E3A916 /* THEATAN_STests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F72F7A8E1C2AFBD300E3A916 /* THEATAN_SUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F72F7A9E1C2AFBD300E3A916 /* Build configuration list for PBXNativeTarget "THEATAN_SUITests" */;
+			buildPhases = (
+				F72F7A8B1C2AFBD300E3A916 /* Sources */,
+				F72F7A8C1C2AFBD300E3A916 /* Frameworks */,
+				F72F7A8D1C2AFBD300E3A916 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F72F7A911C2AFBD300E3A916 /* PBXTargetDependency */,
+			);
+			name = THEATAN_SUITests;
+			productName = THEATAN_SUITests;
+			productReference = F72F7A8F1C2AFBD300E3A916 /* THEATAN_SUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F72F7A681C2AFBD300E3A916 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ooo;
+				TargetAttributes = {
+					F72F7A6F1C2AFBD300E3A916 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					F72F7A831C2AFBD300E3A916 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F72F7A6F1C2AFBD300E3A916;
+					};
+					F72F7A8E1C2AFBD300E3A916 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F72F7A6F1C2AFBD300E3A916;
+					};
+				};
+			};
+			buildConfigurationList = F72F7A6B1C2AFBD300E3A916 /* Build configuration list for PBXProject "THEATAN_S" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F72F7A671C2AFBD300E3A916;
+			productRefGroup = F72F7A711C2AFBD300E3A916 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F72F7A6F1C2AFBD300E3A916 /* THEATAN_S */,
+				F72F7A831C2AFBD300E3A916 /* THEATAN_STests */,
+				F72F7A8E1C2AFBD300E3A916 /* THEATAN_SUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F72F7A6E1C2AFBD300E3A916 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F72F7A7E1C2AFBD300E3A916 /* LaunchScreen.storyboard in Resources */,
+				F72F7A7B1C2AFBD300E3A916 /* Assets.xcassets in Resources */,
+				F72F7A791C2AFBD300E3A916 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F72F7A821C2AFBD300E3A916 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F72F7A8D1C2AFBD300E3A916 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F72F7A6C1C2AFBD300E3A916 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F72F7A761C2AFBD300E3A916 /* ViewController.swift in Sources */,
+				F72F7A741C2AFBD300E3A916 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F72F7A801C2AFBD300E3A916 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F72F7A891C2AFBD300E3A916 /* THEATAN_STests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F72F7A8B1C2AFBD300E3A916 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F72F7A941C2AFBD300E3A916 /* THEATAN_SUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F72F7A861C2AFBD300E3A916 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F72F7A6F1C2AFBD300E3A916 /* THEATAN_S */;
+			targetProxy = F72F7A851C2AFBD300E3A916 /* PBXContainerItemProxy */;
+		};
+		F72F7A911C2AFBD300E3A916 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F72F7A6F1C2AFBD300E3A916 /* THEATAN_S */;
+			targetProxy = F72F7A901C2AFBD300E3A916 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F72F7A771C2AFBD300E3A916 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F72F7A781C2AFBD300E3A916 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F72F7A7C1C2AFBD300E3A916 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F72F7A7D1C2AFBD300E3A916 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F72F7A961C2AFBD300E3A916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F72F7A971C2AFBD300E3A916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F72F7A991C2AFBD300E3A916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = THEATAN_S/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Omiya-Giken.THEATAN-S";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F72F7A9A1C2AFBD300E3A916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = THEATAN_S/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Omiya-Giken.THEATAN-S";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F72F7A9C1C2AFBD300E3A916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = THEATAN_STests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Omiya-Giken.THEATAN-STests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/THEATAN_S.app/THEATAN_S";
+			};
+			name = Debug;
+		};
+		F72F7A9D1C2AFBD300E3A916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = THEATAN_STests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Omiya-Giken.THEATAN-STests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/THEATAN_S.app/THEATAN_S";
+			};
+			name = Release;
+		};
+		F72F7A9F1C2AFBD300E3A916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = THEATAN_SUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Omiya-Giken.THEATAN-SUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = THEATAN_S;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F72F7AA01C2AFBD300E3A916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = THEATAN_SUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Omiya-Giken.THEATAN-SUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = THEATAN_S;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F72F7A6B1C2AFBD300E3A916 /* Build configuration list for PBXProject "THEATAN_S" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F72F7A961C2AFBD300E3A916 /* Debug */,
+				F72F7A971C2AFBD300E3A916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F72F7A981C2AFBD300E3A916 /* Build configuration list for PBXNativeTarget "THEATAN_S" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F72F7A991C2AFBD300E3A916 /* Debug */,
+				F72F7A9A1C2AFBD300E3A916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F72F7A9B1C2AFBD300E3A916 /* Build configuration list for PBXNativeTarget "THEATAN_STests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F72F7A9C1C2AFBD300E3A916 /* Debug */,
+				F72F7A9D1C2AFBD300E3A916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F72F7A9E1C2AFBD300E3A916 /* Build configuration list for PBXNativeTarget "THEATAN_SUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F72F7A9F1C2AFBD300E3A916 /* Debug */,
+				F72F7AA01C2AFBD300E3A916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F72F7A681C2AFBD300E3A916 /* Project object */;
+}
