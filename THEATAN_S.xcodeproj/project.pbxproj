@@ -14,6 +14,9 @@
 		F72F7A7E1C2AFBD300E3A916 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F72F7A7C1C2AFBD300E3A916 /* LaunchScreen.storyboard */; };
 		F72F7A891C2AFBD300E3A916 /* THEATAN_STests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72F7A881C2AFBD300E3A916 /* THEATAN_STests.swift */; };
 		F72F7A941C2AFBD300E3A916 /* THEATAN_SUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72F7A931C2AFBD300E3A916 /* THEATAN_SUITests.swift */; };
+		F7B2E9271C2BF97800920E60 /* Theata.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B2E9261C2BF97800920E60 /* Theata.swift */; };
+		F7B2E9751C2C0D9600920E60 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B2E9741C2C0D9600920E60 /* SwiftyJSON.swift */; };
+		F7B2E9771C2C0F1700920E60 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = F7B2E9761C2C0F1700920E60 /* icons */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		F72F7A8F1C2AFBD300E3A916 /* THEATAN_SUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = THEATAN_SUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F72F7A931C2AFBD300E3A916 /* THEATAN_SUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THEATAN_SUITests.swift; sourceTree = "<group>"; };
 		F72F7A951C2AFBD300E3A916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7B2E9261C2BF97800920E60 /* Theata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theata.swift; sourceTree = "<group>"; };
+		F7B2E9741C2C0D9600920E60 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = "../../SwiftyJSON-master/Source/SwiftyJSON.swift"; sourceTree = "<group>"; };
+		F7B2E9761C2C0F1700920E60 /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = THEATAN_S/icons; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,7 @@
 		F72F7A671C2AFBD300E3A916 = {
 			isa = PBXGroup;
 			children = (
+				F7B2E9761C2C0F1700920E60 /* icons */,
 				F72F7A721C2AFBD300E3A916 /* THEATAN_S */,
 				F72F7A871C2AFBD300E3A916 /* THEATAN_STests */,
 				F72F7A921C2AFBD300E3A916 /* THEATAN_SUITests */,
@@ -99,6 +106,8 @@
 			children = (
 				F72F7A731C2AFBD300E3A916 /* AppDelegate.swift */,
 				F72F7A751C2AFBD300E3A916 /* ViewController.swift */,
+				F7B2E9261C2BF97800920E60 /* Theata.swift */,
+				F7B2E9741C2C0D9600920E60 /* SwiftyJSON.swift */,
 				F72F7A771C2AFBD300E3A916 /* Main.storyboard */,
 				F72F7A7A1C2AFBD300E3A916 /* Assets.xcassets */,
 				F72F7A7C1C2AFBD300E3A916 /* LaunchScreen.storyboard */,
@@ -230,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F72F7A7E1C2AFBD300E3A916 /* LaunchScreen.storyboard in Resources */,
+				F7B2E9771C2C0F1700920E60 /* icons in Resources */,
 				F72F7A7B1C2AFBD300E3A916 /* Assets.xcassets in Resources */,
 				F72F7A791C2AFBD300E3A916 /* Main.storyboard in Resources */,
 			);
@@ -257,7 +267,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F72F7A761C2AFBD300E3A916 /* ViewController.swift in Sources */,
+				F7B2E9271C2BF97800920E60 /* Theata.swift in Sources */,
 				F72F7A741C2AFBD300E3A916 /* AppDelegate.swift in Sources */,
+				F7B2E9751C2C0D9600920E60 /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +494,7 @@
 				F72F7A9A1C2AFBD300E3A916 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F72F7A9B1C2AFBD300E3A916 /* Build configuration list for PBXNativeTarget "THEATAN_STests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +503,7 @@
 				F72F7A9D1C2AFBD300E3A916 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F72F7A9E1C2AFBD300E3A916 /* Build configuration list for PBXNativeTarget "THEATAN_SUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +512,7 @@
 				F72F7AA01C2AFBD300E3A916 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
